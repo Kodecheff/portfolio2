@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
 
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
-  <script src="script.js"></script>
+  <!-- <script src="script.js"></script> -->
 </head>
 
 <body>
@@ -17,13 +17,16 @@
   <header>
     <h1><a href="index.html">KodeCheff</a></h1>
 
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="dropdown">
+      <nav>
+        <div onclick="dropdown()" class="dropbtn">&#9776;</div>
+        <ul id="myDropdown" class="dropdown-content">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <section class="banner">
@@ -207,6 +210,6 @@
   </footer>
 
 
-  <!-- <script src="script.js"></script> -->
+  <script src="script.js"></script>
 </body>
 </html>
