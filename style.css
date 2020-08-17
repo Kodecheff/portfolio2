@@ -1,0 +1,236 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Baloo Tamma 2', cursive;
+}
+header{
+  display: flex;
+  width: 100%;
+  padding: 0px 15px 0px 15px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+header h1{
+  color: indigo;
+}
+header h1 a{
+  text-decoration: none;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+}
+header li{
+  margin-right: 35px;
+  padding: 15px 25px;
+}
+header li a{
+  text-decoration: none;
+}
+header li a:hover{
+  border-bottom: 1px solid indigo;
+}
+.active{
+  border-bottom: 2px solid indigo;
+}
+.banner{
+  max-width: 100%;
+  padding: 230px 20px;
+  background-color: indigo;
+  background-image: url('img/banner-bg.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation-name: banner;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+@keyframes banner{
+  0%{background-color: indigo}
+  25%{background-color: rgb(61, 0, 130)}
+  50%{background-color: rgb(56, 0, 130);}
+  75%{background-color: rgb(46, 0, 130);}
+  100%{background-color: rgb(28, 0, 130);}
+}
+.banner-content{
+  color: white;
+  position: relative;
+  animation-name: banner-content;
+  animation-duration: 1s;
+}
+@keyframes banner-content{
+  0%{
+    margin-left: -1000%;
+  }
+  100%{
+    margin-left: 0;
+  }
+}
+.banner h1{
+  font-size: 50px;
+}
+.banner h4{
+  font-size: 25px;
+}
+
+
+/*=========About section===========*/
+
+.aboutme{
+  padding: 80px 20px;
+  width: 100%;
+  background: rgba(235, 233, 233, 0.3);
+  line-height: 1.8;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: center;
+  flex-basis: 960px;
+}
+.aboutme-header{
+  text-align: center;
+  width: 250px;
+  margin-bottom: 20px;
+  position: relative;
+  animation-name: about-title;
+  animation-duration: 1s;
+}
+@keyframes about-title{
+  0%{margin-left: -1000px;}
+  100%{margin-left: 0;}
+}
+.aboutme-header img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.aboutme h2{
+  text-align: center;
+  margin-top: 20px;
+}
+.aboutme ul{
+  list-style: none;
+  margin-top: 50px;
+  line-height: 1.8;
+}
+.aboutme ul li{
+  margin-left: 30px;
+}
+
+.icon{
+  margin-top: 50px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+
+.aboutme pre{
+  animation-name: about-content;
+  animation-duration: 2s;
+}
+
+.aboutme .myphotos{
+  text-align: center;
+}
+.aboutme .myphotos img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 40px 10px;
+}
+@keyframes about-content{
+  0%{margin-right: 1-000px;}
+  100%{margin-right: 0;}
+}
+
+/*==========Portfolio=========*/
+
+.portfolio-body{
+  display: flex;
+  flex-flow: column;
+  padding: 40px 0;
+}
+.portfolio-body h1{
+  margin-left: 40px;
+}
+
+.portfolio{
+  padding: 50px 40px 25px 40px;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.work{
+  flex-basis: 280px;
+  box-shadow: 3px 2px 15px black;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.work p{
+  margin-bottom: 10px;
+}
+.work a{
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: rgb(2, 2, 66);
+  padding: 5px 10px;
+  transition: all 1s ease-in-out;
+}
+.work a:hover{
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/*=========Contact section=========*/
+.contact{
+  padding: 140px 15px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  text-align: center;
+  line-height: 2;
+  background: rgba(235, 233, 233, 0.4);
+}
+input,textarea{
+  padding: 6px;
+  margin-bottom: 10px;
+}
+.contact form a{
+  text-decoration: none;
+  color: black;
+}
+
+form button{
+  padding: 5px 16px;
+}
+.contact .social{
+  margin-top: 20px;
+}
+.contact .social a{
+  margin-right: 10px;
+}
+
+/*========Footer=======*/
+footer{
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+}
