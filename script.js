@@ -36,7 +36,11 @@ window.onclick = function(event) {
 
 
 // Scroll effect
-ScrollReveal().reveal('.slider', {delay: 500})
-ScrollReveal().reveal('.about', {delay: 500})
+ScrollReveal().reveal('.banner-content', {delay: 500})
+ScrollReveal().reveal('.aboutme', {delay: 500})
+ScrollReveal().reveal('.education', {delay: 500})
+ScrollReveal().reveal('.work-experience', {delay: 500})
+ScrollReveal().reveal('.certification', {delay: 500})
+ScrollReveal().reveal('.skills', {delay: 500})
 ScrollReveal().reveal('.work', {delay: 500})
 ScrollReveal().reveal('.contact', {delay: 500})
