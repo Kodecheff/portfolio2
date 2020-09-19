@@ -34,3 +34,9 @@ window.onclick = function(event) {
   }
 }
 
+
+// Scroll effect
+ScrollReveal().reveal('.slider', {delay: 500})
+ScrollReveal().reveal('.about', {delay: 500})
+ScrollReveal().reveal('.work', {delay: 500})
+ScrollReveal().reveal('.contact', {delay: 500})
