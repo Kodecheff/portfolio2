@@ -1,5 +1,6 @@
-
 let links = document.querySelectorAll('nav ul a');
+let showMoreBtn = document.querySelector('#showMore')
+let otherWorks = document.querySelectorAll('.otherWorks')
 
 window.addEventListener('scroll', event => {
   let fromTop = window.scrollY
@@ -34,6 +35,15 @@ window.onclick = function(event) {
   }
 }
 
+// showMoreBtn.textContent = "Show more"
+
+function expand() {
+  otherWorks.forEach(otherWork => {
+    otherWork.classList.toggle('otherWorks')
+  })
+
+  showMoreBtn.textContent == "Show more" ? showMoreBtn.textContent = "Show less" : showMoreBtn.textContent = "Show more"
+}
 
 // Scroll effect
 ScrollReveal().reveal('.banner-content', {delay: 500})

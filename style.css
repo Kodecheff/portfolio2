@@ -155,21 +155,54 @@ header li a:hover{
   margin: 40px 10px;
 }
 @keyframes about-content{
-  0%{margin-right: 1-000px;}
+  0%{margin-right: -1000px;}
   100%{margin-right: 0;}
+}
+.certification p img{
+  width: 280px;
 }
 
 /*==========Portfolio=========*/
 
 .portfolio-body{
-  display: flex;
-  flex-flow: column;
+  /* display: flex; */
+  /* flex-flow: column; */
   padding: 40px 0;
+  text-align: center;
 }
 .portfolio-body h1{
   margin-left: 40px;
 }
-
+.portfolio-body button{
+  margin: auto;
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid indigo;
+  color: indigo;
+  border-bottom-left-radius: 7px;
+  border-top-right-radius: 7px;
+  outline: none;
+}
+.portfolio-body button:hover{
+  background-color: indigo;
+  color: white;
+  animation-name: portfolio-button;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes portfolio-button{
+  0%{background-color: white;
+    border: 1px solid indigo;
+    color: indigo;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  100%{
+    background-color: indigo;
+    color: white;
+    border-radius: 7px;
+  }
+}
 .portfolio{
   padding: 50px 40px 25px 40px;
   max-width: 1200px;
@@ -184,6 +217,9 @@ header li a:hover{
   padding: 20px;
   margin-top: 20px;
   margin-right: 10px;
+}
+.work img{
+  width: 280px;
 }
 .work p{
   margin-bottom: 10px;
@@ -201,6 +237,9 @@ header li a:hover{
 .work a:hover{
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+.otherWorks{
+  display: none;
 }
 
 /*=========Contact section=========*/
