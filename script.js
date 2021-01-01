@@ -46,11 +46,11 @@ function expand() {
 }
 
 // Scroll effect
-ScrollReveal().reveal('.banner-content', {delay: 500})
-ScrollReveal().reveal('.aboutme', {delay: 500})
-ScrollReveal().reveal('.education', {delay: 500})
-ScrollReveal().reveal('.work-experience', {delay: 500})
-ScrollReveal().reveal('.certification', {delay: 500})
-ScrollReveal().reveal('.skills', {delay: 500})
-ScrollReveal().reveal('.work', {delay: 500})
-ScrollReveal().reveal('.contact', {delay: 500})
+// ScrollReveal().reveal('.banner-content', {delay: 200})
+// ScrollReveal().reveal('.aboutme', {delay: 200})
+// ScrollReveal().reveal('.education', {delay: 200})
+// ScrollReveal().reveal('.work-experience', {delay: 200})
+// ScrollReveal().reveal('.certification', {delay: 200})
+// ScrollReveal().reveal('.skills', {delay: 200})
+// ScrollReveal().reveal('.work', {delay: 200})
+// ScrollReveal().reveal('.contact', {delay: 200})
