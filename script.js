@@ -44,13 +44,3 @@ function expand() {
 
   showMoreBtn.textContent == "Show more" ? showMoreBtn.textContent = "Show less" : showMoreBtn.textContent = "Show more"
 }
-
-// Scroll effect
-// ScrollReveal().reveal('.banner-content', {delay: 200})
-// ScrollReveal().reveal('.aboutme', {delay: 200})
-// ScrollReveal().reveal('.education', {delay: 200})
-// ScrollReveal().reveal('.work-experience', {delay: 200})
-// ScrollReveal().reveal('.certification', {delay: 200})
-// ScrollReveal().reveal('.skills', {delay: 200})
-// ScrollReveal().reveal('.work', {delay: 200})
-// ScrollReveal().reveal('.contact', {delay: 200})

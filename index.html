@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KodeCheff</title>
-  <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
   integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -12,7 +11,12 @@
   <!-- Google font -->
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+  <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script> -->
+
+  <!-- Scroll Animation CDN -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 
   <!-- Scroll reveal lib -->
   <script src="https://unpkg.com/scrollreveal"></script>
@@ -36,7 +40,7 @@
   </header>
 
   <section class="banner">
-    <div class="banner-content">
+    <div data-aos="fade-left" class="banner-content">
       <p>Hello there 👋 I'm</p>
       <h1>Pascal Akunne</h1>
       <h4>Full stack Developer</h4>
@@ -46,7 +50,7 @@
   <!-- About me -->
   <section class="aboutme" id="about">
 
-    <div>
+    <div  data-aos="fade-up">
       <div class="aboutme-header">
         <h1>About me</h1>
       </div>
@@ -64,7 +68,7 @@
 
     <div class="education">
       <div class="about-title">
-        <div class="icon"><img src="https://img.icons8.com/metro/26/000000/graduation-cap.png"/></div>
+        <div data-aos="zoom-out-down" data-aos-delay="1000" class="icon"><img src="https://img.icons8.com/metro/26/000000/graduation-cap.png"/></div>
         <h2>Education</h2>
       </div>
 
@@ -78,43 +82,43 @@
 
     <div class="skills">
       <div class="about-title">
-        <div class="icon"><img src="https://img.icons8.com/small/16/000000/idea.png"/></div>
+        <div data-aos="zoom-out-down" data-aos-delay="1000" class="icon"><img src="https://img.icons8.com/small/16/000000/idea.png"/></div>
         <h2>Skills</h2>
       </div>
 
       <ul>
         <h4>Technical Skill</h4>
 
-        <li>Javascript</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>React.js</li>
-        <li>CSS</li>
-        <li>HTML5</li>
-        <li>Bootstrap</li>
-        <li>REST</li>
-        <li>MongoDB</li>
-        <li>Web Socket</li>
+        <li data-aos="fade-left">Javascript</li>
+        <li data-aos="fade-left">Node.js</li>
+        <li data-aos="fade-left">Express.js</li>
+        <li data-aos="fade-left">React.js</li>
+        <li data-aos="fade-left">CSS</li>
+        <li data-aos="fade-left">HTML5</li>
+        <li data-aos="fade-left">Bootstrap</li>
+        <li data-aos="fade-left">REST</li>
+        <li data-aos="fade-left">MongoDB</li>
+        <li data-aos="fade-left">Web Socket</li>
       </ul>
 
       <ul>
         <h4>Non-technical Skill</h4>
 
-        <li>Organised</li>
-        <li>Critical thinking</li>
-        <li>Good communication</li>
-        <li>Team player</li>
-        <li>Detail Oriented</li>
+        <li data-aos="fade-left">Organised</li>
+        <li data-aos="fade-left">Critical thinking</li>
+        <li data-aos="fade-left">Good communication</li>
+        <li data-aos="fade-left">Team player</li>
+        <li data-aos="fade-left">Detail Oriented</li>
       </ul>
     </div>
 
     <div class="work-experience">
       <div class="about-title">
-        <div class="icon"><img src="https://img.icons8.com/metro/26/000000/suitcase.png"/></div>
+        <div data-aos="zoom-out-down" class="icon"><img src="https://img.icons8.com/metro/26/000000/suitcase.png"/></div>
         <h2>Work Experience</h2>
       </div>
 
-      <p>
+      <p data-aos="fade-left">
         <h3>Sales representative</h3>
 
         Blessed Sunny Home Global Communications - Lagos State, Nigeria<br />
@@ -133,7 +137,7 @@
 
     <div class="certification">
       <div class="about-title">
-        <div class="icon"><img src="https://img.icons8.com/metro/26/000000/certificate.png"/></div>
+        <div data-aos="zoom-out-down" class="icon"><img src="https://img.icons8.com/metro/26/000000/certificate.png"/></div>
         <h2>Certification</h2>
       </div>
 
@@ -146,7 +150,7 @@
       </p>
       <br />
       <p>
-        <img src="img/cert.png" alt="img" />
+        <img data-aos="flip-right" src="img/cert.png" alt="img" />
         <h3>React Developer</h3>
         October 2020 <br />
         Certificate for completion of Frontend React Track 
@@ -155,11 +159,11 @@
     </div>
 
     <div class="myphotos">
-      <img src="img/pic1.jpg" alt="">
-      <img src="img/pic2.jpg" alt="">
-      <img src="img/pic3.jpg" alt="">
-      <img src="img/pic4.jpg" alt="">
-      <img src="img/pic5.jpg" alt="">
+      <img data-aos="flip-up" src="img/pic1.jpg" alt="">
+      <img data-aos="flip-up" src="img/pic2.jpg" alt="">
+      <img data-aos="flip-up" src="img/pic3.jpg" alt="">
+      <img data-aos="flip-up" src="img/pic4.jpg" alt="">
+      <img data-aos="flip-up" src="img/pic5.jpg" alt="">
     </div>
   </section>
 
@@ -167,7 +171,7 @@
   <section class="portfolio-body" id="portfolio">
     <h1>My Projects</h1>
     <div class="portfolio">
-      <div class="work">
+      <div data-aos="zoom-in-up" class="work">
         <img src="img/sp1.png" alt="img" />
         <h3 class="title">Student Profile App</h3>
         <p class="desc"> A React app that fetches random data of individuals and profiles the data.</p>
@@ -175,14 +179,14 @@
         <a href="https://github.com/kodecheff/student-profile">Github link</a><a href="https://student-profile-eee40.web.app">View site</a>
       </div>
 
-      <div class="work">
+      <div data-aos="zoom-in-up" class="work">
         <img src="img/hal.png" alt="img" />
         <h3 class="title">Halo</h3>
         <p class="desc"> A Software Development company's portfolio created with HTML, CSS and Javascript.</p>
         <a href="https://github.com/Ware-house/Halosite">Github link</a><a href="https://halosite.netlify.app">View site</a>
       </div>
 
-      <div class="work">
+      <div data-aos="zoom-in-up" class="work">
         <img src="img/loremfoods.png" alt="img" />
         <h3 class="title">Lorem foods</h3>
         <p class="desc"> An online food delivery webpage created with HTML, CSS and Bootstrap</p>
@@ -302,6 +306,10 @@
     <p>Developed by KodeCheff</p>
   </footer>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
 
   <script src="script.js"></script>
 </body>
