@@ -19,7 +19,7 @@ header{
   top: 0;
   background-color: white;
 }
-header h1{
+header h1 a{
   color: indigo;
 }
 header h1 a{
