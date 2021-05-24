@@ -1,6 +1,13 @@
 header h1 a{
   color: indigo;
 }
+.blogPosts div{
+  margin-bottom: 20px;
+  border: 1px solid rgba(209, 207, 207, 0.712);
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
 .blogPosts a {
   color: black;
 }
